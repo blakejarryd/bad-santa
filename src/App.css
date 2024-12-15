@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 rounded-lg text-white font-medium transition-all;
+    background-color: #DC3B2C;
+  }
+  
+  .btn-primary:hover {
+    @apply brightness-90;
+  }
+  
+  .btn-secondary {
+    @apply px-4 py-2 rounded-lg font-medium transition-all;
+    background-color: #F3F4F6;
+    color: #4B5563;
+  }
+  
+  .btn-secondary:hover {
+    @apply brightness-95;
+  }
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
